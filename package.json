@@ -1,0 +1,22 @@
+{
+  "name": "sass-env",
+  "version": "1.0.0",
+  "description": "creating project env ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdabdulripon/project-with-Sass.git"
+  },
+  "author": "Abdul Ripon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdabdulripon/project-with-Sass/issues"
+  },
+  "homepage": "https://github.com/mdabdulripon/project-with-Sass",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
