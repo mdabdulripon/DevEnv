@@ -1,9 +1,11 @@
 @import '../../node_modules/reset-css/_reset.scss';
+@import '../partials/global.scss';
 @import '../partials/navbar.scss';
+@import '../partials/btn.scss';
 
 
 
-// variable 
+// variable
 
 h1 {
      text-align: center;
