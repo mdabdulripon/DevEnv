@@ -8,34 +8,36 @@
 
 .success {
      background-color: #4CAF50;
-}
-.success:hover {
-     background-color: #46a049;
+     :hover {
+          background-color: #46a049;
+     }
 }
 
 .info {
      background-color: #2196F3;
-}
-.info:hover {
-     background: #0b7dda;
+     :hover {
+          background: #0b7dda;
+     }
 }
 
 .warning {
      background-color: #ff9800;
-}
-.warning:hover {
-     background: #e68a00;
+     :hover {
+          background: #e68a00;
+     }
 }
 
 .danger {
      background-color: #f44336;
+     :hover {
+          background: #da190b;
+     }
 }
-.danger:hover {background: #da190b;}
 
 .default {
      background-color: #e7e7e7;
      color: black;
-}
-.default:hover {
-     background: #ddd;
+     :hover {
+          background: #ddd;
+     }
 }

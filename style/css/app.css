@@ -55,34 +55,29 @@ table {
 
 .success {
   background-color: #4CAF50; }
-
-.success:hover {
-  background-color: #46a049; }
+  .success :hover {
+    background-color: #46a049; }
 
 .info {
   background-color: #2196F3; }
-
-.info:hover {
-  background: #0b7dda; }
+  .info :hover {
+    background: #0b7dda; }
 
 .warning {
   background-color: #ff9800; }
-
-.warning:hover {
-  background: #e68a00; }
+  .warning :hover {
+    background: #e68a00; }
 
 .danger {
   background-color: #f44336; }
-
-.danger:hover {
-  background: #da190b; }
+  .danger :hover {
+    background: #da190b; }
 
 .default {
   background-color: #e7e7e7;
   color: black; }
-
-.default:hover {
-  background: #ddd; }
+  .default :hover {
+    background: #ddd; }
 
 h1 {
   text-align: center;
