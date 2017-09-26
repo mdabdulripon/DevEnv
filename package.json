@@ -17,8 +17,5 @@
   },
   "homepage": "https://github.com/mdabdulripon/project-with-Sass",
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "jquery": "^3.2.1",
-    "reset-css": "^2.2.0"
   }
 }
