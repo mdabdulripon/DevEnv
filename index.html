@@ -9,59 +9,126 @@
         <link href="style/css/app.css" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Brand</a>
-                </div>
-                  
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                        <li>
-                            <a href="#">Link</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="navbar-form navbar-left" role="search">
-                        <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
+        <header id="header">
+            <nav class="navbar navbar-fixed-top" role="banner">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">ABDUL RIPON</a>
+                    </div>				
+                    <div class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#header">Home</a></li>
+                            <li><a href="#feature">Platform</a></li>
+                            <li><a href="#feature">Sign Up</a></li>
+                            <li><a href="#feature">Log In</a></li>
+                        </ul>
+                    </div>
+                </div><!--container-->
+            </nav><!--nav-->		
+        </header><!--header-->	
+
+
+
+        <div class="slider">
+            <div id="about-slider">
+                <div id="carousel-slider" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators visible-xs">
+                        <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-slider" data-slide-to="1"></li>
+                        <li data-target="#carousel-slider" data-slide-to="2"></li>
+                    </ol>
+    
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="assets/img/7.jpg" class="img-responsive" alt="">
+                            <div class="carousel-caption">
+                                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+                                    <h2><span>Clean & Fully Modern Design</span></h2>
+                                </div>
+                                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
+                                    <form class="form-inline">
+                                        <div class="form-group">
+                                            <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">Live Demo</button>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">Get Now</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </form>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Link</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    
+                        <div class="item">
+                            <img src="assets/img/6.jpg" class="img-responsive" alt="">
+                            <div class="carousel-caption">
+                                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.0s">
+                                    <h2>Fully Responsive</h2>
+                                </div>
+                                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.3s">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.6s">
+                                    <form class="form-inline">
+                                        <div class="form-group">
+                                            <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Live Demo</button>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Get Now</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/1.jpg" class="img-responsive" alt="">
+                            <div class="carousel-caption">
+                                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
+                                    <h2>Modern Design</h2>
+                                </div>
+                                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                </div>
+                                <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
+                                    <form class="form-inline">
+                                        <div class="form-group">
+                                            <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Live Demo</button>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Get Now</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+    
+                    <a class=" right carousel-control hidden-xs"href="#carousel-slider" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div> <!--carousel-slider-->
+            </div><!--about-slider-->
+        </div><!--slider-->
 
-        <div class="well">
-            <h1>
-                Add Sass in this project. The other technologies are listed in the below.
-            </h1>
-        </div>
-
-
+        
         <div class="jumbotron">
-            <button class="btn success">Success</button>
+            <button class="btn success">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+                Success
+            </button>
             <button class="btn info">Info</button>
             <button class="btn warning">Warning</button>
             <button class="btn danger">Danger</button>
