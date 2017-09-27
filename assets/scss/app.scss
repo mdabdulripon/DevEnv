@@ -3,17 +3,3 @@
 @import '../partials/global.scss';
 @import '../partials/navbar.scss';
 @import '../partials/btn.scss';
-
-
-h1 {
-     text-align: center;
-     text-transform: capitalize;
-}
-ul {
-     margin: 0;
-     padding: 0;
-     border: 2px solid black;
-     li {
-          list-style-type: none;
-     }
-}

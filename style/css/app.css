@@ -5836,15 +5836,4 @@ html {
   .default :hover {
     background: #ddd; }
 
-h1 {
-  text-align: center;
-  text-transform: capitalize; }
-
-ul {
-  margin: 0;
-  padding: 0;
-  border: 2px solid black; }
-  ul li {
-    list-style-type: none; }
-
 /*# sourceMappingURL=app.css.map */

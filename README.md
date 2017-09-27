@@ -1,6 +1,6 @@
 # Front End Developer Working Environments
 
-###### Need to have pre install with :
+###### Need to have the following dependency:
     01. Node js [ download from:  https://nodejs.org/en/ ]
     02. npm 
     03. bower [ npm install -g bower ]
