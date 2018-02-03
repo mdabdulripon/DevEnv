@@ -18,7 +18,9 @@
     "homepage": "https://github.com/mdabdulripon/project-with-Sass",
     "dependencies": {
         "bootstrap": "^4.0.0-alpha.6",
+        "ionicons": "^3.0.0",
         "jquery": "^3.3.1",
+        "jquery-validation": "^1.17.0",
         "tether": "^1.4.3"
     }
 }

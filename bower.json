@@ -1,20 +1,21 @@
 {
-    "name": "Front-End-Environment",
-    "description": "creating project env",
-    "main": "index.html",
-    "authors": [
-        "Abdul Ripon"
-    ],
-    "license": "ISC",
-    "homepage": "https://github.com/mdabdulripon/DevEnv",
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "test",
-        "tests"
-    ],
-    "dependencies": {
-        "font-awesome": "fontawesome#^4.7.0"
-    }
+  "name": "Front-End-Environment",
+  "description": "creating project env",
+  "main": "index.html",
+  "authors": [
+    "Abdul Ripon"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mdabdulripon/DevEnv",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.7.0",
+    "Ionicons": "ionicons#^2.0.1"
+  }
 }
