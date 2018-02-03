@@ -18,5 +18,5 @@
     02. bower install fontawesome --save
 
 ###### Run this command to compile sass to CSS
-     -> sass --watch assets/scss/app.scss:style/css/app.css
+    -> sass --watch assets/scss/app.scss:style/css/app.css
 
