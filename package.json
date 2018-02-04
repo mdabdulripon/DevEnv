@@ -22,7 +22,8 @@
         "ionicons": "^3.0.0",
         "jquery": "^3.3.1",
         "jquery-validation": "^1.17.0",
+        "particlesjs": "^2.1.0",
         "tether": "^1.4.3",
-        "wow.js": "^1.2.2"
+        "wowjs": "^1.1.3"
     }
 }
