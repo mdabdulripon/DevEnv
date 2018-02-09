@@ -1,10 +1,14 @@
 {
     "name": "Front-End-Environment",
     "version": "1.0.0",
-    "description": "creating project env ",
-    "main": "index.html",
+    "description": "creating project env",
+    "main": "app.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "build-css": "node-sass --include--path scss scss/app.scss app/style/css/app.min.css",
+        "build-js": "browserify js/**.js>app/js/app.min.js",
+        "build": "npm run build-css && npm run build-js",
+        "server": "cd app && lite-server",
+        "start": "nodemon -e js,scss -x \"npm run build && npm run server\" --ignore app"
     },
     "repository": {
         "type": "git",
@@ -24,5 +28,10 @@
         "jquery-validation": "^1.17.0",
         "tether": "^1.4.3",
         "wowjs": "^1.1.3"
+    },
+    "devDependencies": {
+        "browserify": "^16.0.0",
+        "node-sass": "^4.7.2",
+        "nodemon": "^1.14.12"
     }
 }
