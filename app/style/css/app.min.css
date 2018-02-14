@@ -5996,6 +5996,9 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 html {
   overflow-y: scroll; }
 
+body {
+  padding: 50px; }
+
 input {
   border: 1px solid #CCCCCC; }
 
@@ -6035,5 +6038,41 @@ input {
   .default :hover {
     background: #ddd; }
 
-body {
-  border: 1px solid #C00C00; }
+.style-radio-checkbox {
+  position: relative;
+  padding: 14px 0 14px 40px;
+  text-align: left; }
+  .style-radio-checkbox label {
+    cursor: pointer; }
+    .style-radio-checkbox label:before, .style-radio-checkbox label:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      border-radius: 50%; }
+    .style-radio-checkbox label:before {
+      left: 0;
+      width: 30px;
+      height: 30px;
+      margin: -15px 0 0;
+      background: #ffffff;
+      box-shadow: 0 0 1px grey; }
+    .style-radio-checkbox label:after {
+      left: 5px;
+      width: 20px;
+      height: 20px;
+      margin: -10px 0 0;
+      opacity: 0;
+      background: #3487C3; }
+  .style-radio-checkbox input[type="radio"],
+  .style-radio-checkbox input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    visibility: hidden; }
+    .style-radio-checkbox input[type="radio"]:checked + label:after,
+    .style-radio-checkbox input[type="checkbox"]:checked + label:after {
+      transform: translate3d(0, 0, 0);
+      opacity: 1; }
+
+.styled-input--square label:before, .styled-input--square label:after {
+  border-radius: 0; }
