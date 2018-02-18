@@ -10,4 +10,5 @@ console.log(` I would pay ${courseValue} for this awesome course.`);
 
 $(function() {
     alert('hi how are you!!!!');
-})
+    console.log('jQuery works!!!!!!!!!.');
+});
