@@ -1,0 +1,15 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../styles/partials/_variables';
+body {
+    background-color: $white;
+    color: $success-color;
+}
+
+p {
+    margin-top: 20px;
+    color: $success-color;
+}
+
+.navbar-light .navbar-brand {
+    color: $test-color;
+}

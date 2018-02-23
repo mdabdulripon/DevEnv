@@ -4,7 +4,7 @@ import path from 'path';
 export default {
     devtool: 'inline-source-map',
     entry: [
-        path.resolve(__dirname, 'src/app')
+        path.resolve(__dirname, 'src/js/app')
     ],
     target: 'web',
     output: {
@@ -21,13 +21,14 @@ export default {
             $: 'jquery',
             jQuery: 'jquery',
             'window.jQuery': 'jquery',
-            Tether: 'tether'
+            Tether: 'tether',
+            'Popper': 'popper.js'
         })
     ],
     module: {
         rules: [
             { test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader'] },
-            { test: /\.css$/, loaders: ['style-loader', 'css-loader'] },
+            { test: /\.(s*)css$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
         ]
     }
 }
