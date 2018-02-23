@@ -1,0 +1,18 @@
+$black: #000000;
+$mid-black: #333333;
+$lite-black: #666666;
+$black-text-color: #4A4A4A;
+$white: #FFFFFF;
+$border-color: #CCCCCC;
+$test-color: #C00C00;
+$success-color: #3ddb93;
+$blue-color: #0091ff;
+$purple-color: #553F79;
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+// .box { @include border-radius(10px); }
