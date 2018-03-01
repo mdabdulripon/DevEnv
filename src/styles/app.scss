@@ -1,11 +1,27 @@
 @import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 @import '../styles/partials/_variables';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
     background-color: $white;
     color: $success-color;
+    height: 100%;
+    margin: 0;
+}
+
+#top-header {
+    background-image: url("../images/header-images/bg.jpg");
+    height: 600px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid $test-color;
 }
 
 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: thin;
+    font-style: italic;
+    font-size: 18px;
     margin-top: 20px;
     color: $success-color;
 }
