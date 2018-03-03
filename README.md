@@ -5,7 +5,7 @@
     02. npm 
     03. bower [ npm install -g bower ]
     04. loccaltunnel -> npm install -g localtunnel [to share you project to outhers localy] [NOT WORKING]
-    [Some Ussefull Command: lt --port 3000, lt --port 3000 --subdomain ripon ]
+    [Some Ussefull Command: lt --port 3001, lt --port 3001 --subdomain ripon ]
     05. nsp -> sudo npm install -g nsp [node security platform] [Command: nsp check]
 
 ###### USING:

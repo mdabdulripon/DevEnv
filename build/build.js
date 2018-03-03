@@ -1,25 +1,22 @@
 import webpack from 'webpack';
 import webpackConfig from '../webpack.config.prod';
-import { chalk } from 'chalk';
+import chalk from 'chalk';
 
 
-/**
- * ! Generate the message before run the script
- */
 process.env.NODE_ENV = 'production';
 console.log('Generating minified bundle for production. this will take a moment.......')
 
 
 webpack(webpackConfig).run((err, stats) => {
     /**
-     * * This is enough to run the production code
+     * ! This is enough to run the production code
      * */
     if (err) {
         console.log(chalk.red(err));
         return 1;
     }
     /**
-     * ? To check the error message. [Optional]
+     * ! To check the error message. [Optional]
      */
     const jsonStats = stats.toJson();
 
