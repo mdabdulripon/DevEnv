@@ -6,7 +6,6 @@ import WebpackMd5Hash from 'webpack-md5-hash';
 export default {
     devtool: 'source-map',
     entry: {
-        // [path.resolve(__dirname, 'src/js/app')],
         vendor: path.resolve(__dirname, 'src/js/vendor'),
         main: path.resolve(__dirname, 'src/js/app')
 
