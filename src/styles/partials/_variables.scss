@@ -5,6 +5,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+
+/**
+ * ! Color Variables.
+ * */
+
 $black: #000000;
 $mid-black: #333333;
 $lite-black: #666666;
@@ -15,6 +20,11 @@ $test-color: #C00C00;
 $success-color: #3ddb93;
 $blue-color: #0091ff;
 $purple-color: #553F79;
+
+/**
+ * ! Mixin.
+ * */
+
 @mixin border-radius($radius) {
     -webkit-border-radius: $radius;
     -moz-border-radius: $radius;
