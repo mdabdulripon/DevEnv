@@ -1,6 +1,7 @@
 import webpack from 'webpack';
 import path from 'path';
 import htmlWebpackPlugin from 'html-webpack-plugin';
+import BrowserSyncPlugin from 'browser-sync-webpack-plugin';
 
 
 
@@ -15,7 +16,27 @@ export default {
         publicPath: '/',
         filename: 'bundle.js'
     },
+    watch: true,
     plugins: [
+        new BrowserSyncPlugin({
+                /**
+                 * ! browse to http://localhost:3000/ during development
+                 * ? proxy the Webpack Dev Server endpoint.
+                 * * which should be serving on http://localhost:3001/
+                 * */
+                host: 'localhost',
+                port: 3000,
+                files: [
+                    'src/**/*',
+                ],
+                proxy: 'http://localhost:3001/'
+            },
+            /**
+             * * plugin options
+             * */
+            {
+                reload: false
+            }),
         /**
          * ? html-webpack-plugin
          * * Copy Html to the dist folder

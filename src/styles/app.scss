@@ -1,5 +1,26 @@
+/**
+ * * Main SCSS file.
+ * ? Created: 10th March 2018
+ * ! Author : Abdul Ripon
+ * */
+
+
+/***
+ * Vendor CSS || SCSS file
+ * **/
+
 @import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+
+/**
+ * * Custom scss files..
+ * */
+
 @import '../styles/partials/_variables';
+@import '../styles/partials/_global';
+@import '../styles/partials/_class';
+@import '../styles/partials/_navbar';
+@import '../styles/partials/_footer';
+//
 body {
     background-color: $white;
     color: $success-color;
@@ -25,6 +46,7 @@ p {
     color: $success-color;
 }
 
-.navbar-light .navbar-brand {
+.small {
     color: $test-color;
+    text-decoration: underline;
 }

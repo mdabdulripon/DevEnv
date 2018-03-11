@@ -1,6 +1,6 @@
 import '../styles/app.scss';
 
-
 $(function() {
-    console.log('jQuery works!!!!!!!!!.');
+    console.log('jQuery works...');
+    // alert('Browser-sync working>>>>');
 });

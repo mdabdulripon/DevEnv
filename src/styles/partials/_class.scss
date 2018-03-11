@@ -1,0 +1,30 @@
+/**
+ * ! Classes........
+ * */
+
+.normal-text {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.italic-text {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.normal-header {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    color: $semi-black;
+}
+
+.italic-header {
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    color: $semi-black;
+}
+
+// button shadow class
+// .btn-shadow {}
