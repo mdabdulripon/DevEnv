@@ -25,7 +25,6 @@
     04. npm install animate.css --save
     05. npm install wowjs --save 
     06. npm install particlesjs --save
-    07. bower install fontawesome --save
     08. npm install ionicons
 
 

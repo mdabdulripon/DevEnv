@@ -1,0 +1,9 @@
+a,
+button {
+    &:hover,
+    &:focus,
+    &:visited {
+        border: none;
+        outline: none;
+    }
+}

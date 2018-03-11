@@ -4,7 +4,7 @@ import chalk from 'chalk';
 
 
 process.env.NODE_ENV = 'production';
-console.log('Generating minified bundle for production. this will take a moment.......')
+console.log(chalk.green('Generating minified bundle for production. this will take a moment.......'));
 
 
 webpack(webpackConfig).run((err, stats) => {
