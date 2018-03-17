@@ -68,7 +68,8 @@ export default {
         rules: [
             { test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader'] },
             { test: /\.(s*)css$/, use: ['style-loader', 'css-loader', 'autoprefixer-loader', 'sass-loader'] },
-            { test: /\.(png|jpg|ttf|eot)$/, exclude: /node_module/, loaders: 'url-loader?limit=100000' }
+            { test: /\.html$/, exclude: /node_modules/, use: ['html-loader'] },
+            { test: /\.(jpe?g|png|gif|svg|ttf|eot)$/, exclude: /node_module/, loaders: 'url-loader?limit=10000' }
         ]
     }
 }
