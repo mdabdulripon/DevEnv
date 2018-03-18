@@ -61,7 +61,7 @@ export default {
             jQuery: 'jquery',
             'window.jQuery': 'jquery',
             Tether: 'tether',
-            'Popper': 'popper.js'
+            'Popper': 'popper.js',
         })
     ],
     module: {
