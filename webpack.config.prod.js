@@ -83,21 +83,7 @@ export default {
             { test: /\.html$/, exclude: /node_modules/, use: ['html-loader'] },
             { test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader'] },
             { test: /\.(s*)css$/, use: ['style-loader', 'css-loader', 'autoprefixer-loader', 'sass-loader'] },
-            { test: /\.(jpe?g|png|gif|svg|ttf|eot)$/, exclude: /node_module/, loaders: 'url-loader?limit=10000' },
-            {
-                test: require.resolve('jquery'),
-                use: [
-                    { loader: 'expose-loader', options: 'jQuery' },
-                    { loader: 'expose-loader', options: '$' }
-                ]
-            },
-
-            {
-                test: require.resolve('tether'),
-                use: [
-                    { loader: 'expose-loader', options: 'Tether' }
-                ]
-            }
+            { test: /\.(jpe?g|png|gif|svg|ttf|eot)$/, exclude: /node_module/, loaders: 'url-loader?limit=10000' }
         ]
     }
 }
