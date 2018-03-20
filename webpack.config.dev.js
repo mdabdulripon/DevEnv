@@ -61,14 +61,14 @@ export default {
             jQuery: 'jquery',
             'window.jQuery': 'jquery',
             Tether: 'tether',
-            'Popper': 'popper.js'
+            'Popper': 'popper.js',
         })
     ],
     module: {
         rules: [
+            { test: /\.html$/, exclude: /node_modules/, use: ['html-loader'] },
             { test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader'] },
             { test: /\.(s*)css$/, use: ['style-loader', 'css-loader', 'autoprefixer-loader', 'sass-loader'] },
-            { test: /\.html$/, exclude: /node_modules/, use: ['html-loader'] },
             { test: /\.(jpe?g|png|gif|svg|ttf|eot)$/, exclude: /node_module/, loaders: 'url-loader?limit=10000' }
         ]
     }

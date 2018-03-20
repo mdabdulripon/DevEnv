@@ -2,9 +2,7 @@
 
 ###### Need to have the following dependency || Global Dependency
     01. Node js [ download from:  https://nodejs.org/en/ ]
-    02. npm 
-    03. bower [ npm install -g bower ]
-    [Some Ussefull Command: lt --port 3001, lt --port 3001 --subdomain ripon ]
+    02. NPM [ Node Package Management ]
     05. nsp -> sudo npm install -g nsp [node security platform] [Command: nsp check]
 
 ###### USING:
@@ -17,6 +15,7 @@
     07. Particlesjs
     08. Fontawesome
     09. Ionicons
+    10. Express
 
 ###### Dev Dependency:
     01. npm install bootstrap --save
@@ -26,11 +25,9 @@
     05. npm install wowjs --save 
     06. npm install particlesjs --save
     08. npm install ionicons
+    09. npm install express --save-dev
 
 
 ###### Local Server:
-    01. Express -> npm install express --save-dev
 
-###### Run this command to compile sass to CSS
-    -> sass --watch assets/scss/app.scss:style/css/app.css
 
