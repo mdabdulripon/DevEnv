@@ -17,37 +17,12 @@
  * */
 
 @import '../styles/partials/_variables';
-@import '../styles/partials/_global';
 @import '../styles/partials/_class';
+@import '../styles/partials/_global';
 @import '../styles/partials/_navbar';
+@import '../styles/partials/_header.scss';
 @import '../styles/partials/_footer';
-//
-body {
-    background-color: $white;
-    color: $success-color;
-    height: 100%;
-    margin: 0;
-}
 
-#top-header {
-    background-image: url("../images/header-images/bg.jpg");
-    height: 600px;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom: 10px solid $test-color;
-}
 
-p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: thin;
-    font-style: italic;
-    font-size: 18px;
-    margin-top: 20px;
-    color: $success-color;
-}
 
-.small {
-    color: $test-color;
-    text-decoration: underline;
-}
+

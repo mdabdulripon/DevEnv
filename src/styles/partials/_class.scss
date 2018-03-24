@@ -3,28 +3,29 @@
  * */
 
 .normal-text {
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
-    font-size: 12px;
+    font-family: $roboto;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 .italic-text {
-    font-family: "Roboto", sans-serif;
+    font-family: $roboto;
     font-style: italic;
-    font-size: 12px;
+    font-size: 16px;
+    line-height: 28px;
 }
 
 .normal-header {
-    font-family: "Oswald", sans-serif;
+    font-family: $oswald;
     font-style: normal;
-    color: $semi-black;
+    color: $black;
+    line-height: 28px;
 }
 
 .italic-header {
-    font-family: "Oswald", sans-serif;
+    font-family: $oswald;
     font-style: normal;
-    color: $semi-black;
+    line-height: 28px;
+    color: $black;
 }
-
-// button shadow class
-// .btn-shadow {}

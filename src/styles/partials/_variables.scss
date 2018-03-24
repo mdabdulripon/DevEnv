@@ -2,12 +2,17 @@
 * ! Fonts.......
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
-// $roboto: 'Roboto', sans-serif;
-// $oswald: 'Oswald', sans-serif;
-// $open-sans: 'Open Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700");
+
+/**
+ * * Font Family
+ * **/
+
+$roboto: "Roboto", sans-serif;
+$oswald: "Oswald", sans-serif;
+$open-sans: "Open Sans", sans-serif;
 
 /**
  * ! Color Variables........
@@ -16,16 +21,22 @@
 $black: #000000;
 $semi-black: #333333;
 $light-black: #666666;
-$black-text-color: #4A4A4A;
-$white: #FFFFFF;
-$border-color: #CCCCCC;
-$test-color: #C00C00;
-$red: #F4252E;
-$pink-color: #FD0C96;
-$yellow-color: #FE641D;
+$black-text-color: #4a4a4a;
+$white: #ffffff;
+$border-color: #cccccc;
+$test-color: #c00c00;
+$red: #f4252e;
+$pink-color: #fd0c96;
+$yellow-color: #fe641d;
 $success-color: #3ddb93;
 $blue-color: #0091ff;
-$purple-color: #6C31C1;
+$purple-color: #6c31c1;
+$text-color: #001A34;
+$color1: #25BE69;
+$color2: #F35B2D;
+$color3: #FEAB37;
+$color4: #DF245E;
+
 
 /**
  * ! Mixin..........
