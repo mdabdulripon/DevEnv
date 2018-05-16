@@ -10,43 +10,68 @@
  * * Font Family
  * **/
 
-$roboto: "Roboto", sans-serif;
-$oswald: "Oswald", sans-serif;
-$open-sans: "Open Sans", sans-serif;
+$roboto:        "Roboto", sans-serif;
+$oswald:        "Oswald", sans-serif;
+$open-sans:     "Open Sans", sans-serif;
 
 /**
  * ! Color Variables........
  * */
 
-$black: #000000;
-$semi-black: #333333;
+
+$dark-blue:     #0F346C !default;
+$gray-100:      #f8f9fa !default;
+$gray-200:      #EEEEEE !default;
+$gray-300:      #dee2e6 !default;
+$gray-400:      #CCCCCC !default;
+$gray-500:      #adb5bd !default;
+$gray-600:      #888888 !default;
+$gray-700:      #666666 !default;
+$gray-800:      #4a4a4a !default;
+$gray-900:      #495057 !default;
+
+/**
+* Name Color
+***/ 
+$white:         #FFFFFF !default;
+$black:         #000000 !default;
+$black-100:     #001A34;
+$gray-800:      #333333 !default;
+$gray-900:      #222222 !default;
+$black-200:     #4a4a4a;
 $light-black: #666666;
-$black-text-color: #4a4a4a;
-$white: #ffffff;
-$border-color: #cccccc;
-$test-color: #c00c00;
-$red: #f4252e;
-$pink-color: #fd0c96;
-$yellow-color: #fe641d;
-$success-color: #3ddb93;
-$blue-color: #0091ff;
-$purple-color: #6c31c1;
-$text-color: #001A34;
-$color1: #25BE69;
-$color2: #F35B2D;
-$color3: #FEAB37;
-$color4: #DF245E;
+
+
+
+$blue:          #008cba !default;
+$light-100:     #0091ff !default;;
+$indigo:        #6610f2 !default;
+$purple:        #6f42c1 !default;
+$pink:          #e83e8c !default;
+$pink-100:      #fd0c96 !default;
+
+$red:           #C00C00 !default;
+$red-100:       #F04124 !default;
+$red-200:       #f4252e !default;
+$red-300:       #DF245E !default;
+
+$orange:        #fd7e14 !default;
+$orange-100:    #fe641d !default;
+$orange-200:    #F35B2D !default;
+$yellow:        #E99002 !default;
+$yellow-100:    #FEAB37;
+$green:         #43ac6a !default;
+$green-100:     #3ddb93 !default;
+$green-200:     #25BE69 !default;
+$teal:          #20c997 !default;
+$cyan:          #5bc0de !default;
+
 
 
 /**
- * ! Mixin..........
- * */
-
-@mixin border-radius($radius) {
-    -webkit-border-radius: $radius;
-    -moz-border-radius: $radius;
-    -ms-border-radius: $radius;
-    border-radius: $radius;
-}
-
-// .box { @include border-radius(10px); }
+* Font Size
+***/ 
+$base-font-size:    16px;
+$sm-font-size:      12px;
+$lg-font-size:      24px;
+$xl-font-size:      36px;
